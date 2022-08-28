@@ -1,8 +1,64 @@
-.background{
-
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.root {
-    body-bg-color: #FAF7FD;
-    purple: #BB99DD;
+.body{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialtree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    color: #BB99DD;
+    margin-top: auto;
+}
+.profileImage{
+    border-radius: 50%;
+    background-color: white;
+    width: 150px;
+    height: 155px;
+    border: 3px solid #BB99DD;
+    padding: 2px;
+}
+
+.btn-link{
+    all:unset;
+    font-weight: 100px;
+    border: 2px #BB99DD solid;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    color: #BB99DD;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transition: width 0.35s;
+}
+
+.medias{
+    margin-top: 20px;
+    display: flex;
+    width: 215px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.btn-link:hover{
+    width: 300px;
+    color: aliceblue;
+    background-color: black;
 }
